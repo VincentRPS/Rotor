@@ -1,0 +1,2 @@
+# Rotor
+Multipurpose Discord Bot
