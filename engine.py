@@ -1,9 +1,10 @@
-from internal.bots import pycord
+import logging
+import os
 
 import discord
 import yaml
-import os
-import logging
+
+from internal.bots import pycord
 
 logging.basicConfig(level=logging.INFO)
 _log = logging.getLogger(__name__)
@@ -30,4 +31,3 @@ for module in os.listdir("./events"):
         _log.info(f"{module} has just loaded!")
 
 interactions.run(raw_data.get("TOKEN"))
-
