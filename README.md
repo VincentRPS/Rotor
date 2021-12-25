@@ -1,2 +1,2 @@
 # Rotor
-Multipurpose Discord Bot
+Multipurpose Discord Bot, propelled on making you soar
